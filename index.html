@@ -1,51 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empire of Labib</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .container {
-            text-align: center;
-        }
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-        p {
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
-        }
-        .loader {
-            border: 16px solid #f3f3f3;
-            border-radius: 50%;
-            border-top: 16px solid #3498db;
-            width: 120px;
-            height: 120px;
-            animation: spin 2s linear infinite;
-            margin: 0 auto;
-        }
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>We're Building Something Great!</h1>
-        <p>Our website is currently under construction. Stay tuned for something amazing!</p>
-        <div class="loader"></div>
-    </div>
-</body>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>404</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    Empire of Labib
+                </a>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home">
+                <div class="home__container container">
+                    <div class="home__data">
+                        <span class="home__subtitle">Error 404</span>
+                        <h1 class="home__title">Oops!</h1>
+                        <p class="home__description">
+                            We couldn't find the page <br> you were looking for
+                        </p>
+                        <a href="https://empireoflabib.com/Portfolio" class="home__button">
+                            Go Home
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <img src="assets/img/404.png" alt="">
+                        <div class="home__shadow"></div>
+                    </div>
+                </div>
+
+                <footer class="home__footer">
+                    <span>labib@empireoflabib.com</span>
+                </footer>
+            </section>
+        </main>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
