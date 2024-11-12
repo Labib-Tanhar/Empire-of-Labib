@@ -2,7 +2,7 @@
 
 
 
-// add Event on multiple elment
+// add Event on multiple element
 
 const addEventOnElements = function (elements, eventType, callback) {
   for (let i = 0; i < elements.length; i++) {
