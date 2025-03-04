@@ -1,0 +1,17 @@
+{
+  "name": "frontend-scraper",
+  "version": "1.0.0",
+  "description": "A tool to scrape frontend assets from websites",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "axios": "^1.6.0",
+    "url-parse": "^1.5.10",
+    "fs-extra": "^11.1.1",
+    "path": "^0.12.7",
+    "sanitize-filename": "^1.6.3"
+  }
+}
